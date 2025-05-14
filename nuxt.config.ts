@@ -6,7 +6,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
     "@nuxt/image",
-    "nuxt-swiper",
     "@vueuse/nuxt",
     "nuxt-icon",
     "@vee-validate/nuxt",
@@ -94,7 +93,6 @@ export default defineNuxtConfig({
               : "noindex, nofollow",
         },
         {
-          hid: "description",
           name: "description",
           content: "",
         },

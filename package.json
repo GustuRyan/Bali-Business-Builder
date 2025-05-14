@@ -36,6 +36,7 @@
     "nuxt-snackbar": "^1.0.4",
     "nuxt-swiper": "^1.2.2",
     "pinia": "^2.1.6",
+    "swiper": "^11.2.6",
     "vue-tel-input": "^8.1.4",
     "zod": "^3.22.2"
   },
