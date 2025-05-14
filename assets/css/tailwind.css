@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .label-text {
+    @apply font-medium text-slate-500;
+  }
+  .active {
+    @apply bg-emerald-200;
+  }
+  .btn-success-custome {
+    @apply bg-gradient-to-r from-[#00B166] from-20% to-[#19B600];
+  }
+}
+
+.costume-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
