@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   },
   image: {
     format: ["webp", "jpg", "png"],
-    domains: [process.env.FRONT_END as string],
+    domains: process.env.FRONT_END ? [process.env.FRONT_END] : [],
     provider: "ipx",
   },
   devServer: {
