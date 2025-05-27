@@ -1,4 +1,4 @@
-import { Role, AuthCredential, AuthUser, GeneralResponse } from "@/types";
+import { Role, type AuthCredential, type AuthUser, type GeneralResponse } from "@/types";
 
 export default function () {
   const $credetial = useCookie<AuthCredential | null>("auth-token").value;
