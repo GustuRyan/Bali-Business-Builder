@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useDateFormat } from "@vueuse/core";
-import { PERSON_FORM_LIST, ResponseData } from "@/types";
+import type { PERSON_FORM_LIST, ResponseData } from "@/types";
 const { loading } = useStateRequestHelper();
 const { axiosRequest } = useAxios();
 const { modal, openModal, closeModal } = useModal();
