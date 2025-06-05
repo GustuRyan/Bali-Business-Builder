@@ -3,7 +3,7 @@ import { useDateFormat, useTimeoutFn } from "@vueuse/core";
 const { modal, openModal } = useModal();
 const { loading } = useStateRequestHelper();
 
-import { ResponseData, Product } from "@/types";
+import type { ResponseData, Product } from "@/types";
 const { formatCurrency } = useMoneyFormat();
 const router = useRouter();
 const route = useRoute();
