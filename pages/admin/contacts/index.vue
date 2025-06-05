@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ResponseData, Contact } from "@/types";
+/// <reference types="../../../node_modules/.vue-global-types/vue_3.5_0_0_0.d.ts" />
+import type { ResponseData, Contact } from "@/types";
 import { useDateFormat } from "@vueuse/core";
 const { modal, openModal, closeModal } = useModal();
 
