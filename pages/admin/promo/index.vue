@@ -10,7 +10,7 @@ const { locale } = useI18n();
 
 import { useTimeoutFn, useDateFormat } from "@vueuse/core";
 
-import { ResponseData, Promo } from "@/types";
+import type { ResponseData, Promo } from "@/types";
 
 const page = ref<number>(1);
 const search = ref("");
