@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { AuthUser, ResponseData } from "@/types";
+/// <reference types="../../../node_modules/.vue-global-types/vue_3.5_0_0_0.d.ts" />
+import type { AuthUser, ResponseData } from "@/types";
 const { loading } = useStateRequestHelper();
 import { useTimeoutFn } from "@vueuse/core";
 const { modal, openModal, closeModal } = useModal();
